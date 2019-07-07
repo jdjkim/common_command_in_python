@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt # plt 用于显示图片
 import matplotlib.image as mpimg # mpimg 用于读取图片
 import numpy as np
 
-# load
+### load
 img = mpimg.imread('cat.jpg') 
 # 此时 img 就已经是一个 np.array 了，可以对它进行任意处理
 # height, width, channel=(360, 480, 3)
